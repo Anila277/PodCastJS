@@ -97,3 +97,11 @@ body {
     background: var(--dark-violet);
     border-left: 1px solid var(--space-cadet);
 }
+
+::-webkit-scrollbar-thumb {
+    background: hsla(0, 0%, 100%, 0.8);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: hsla(0, 0%, 100%, 0.6);
+}
