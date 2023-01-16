@@ -112,6 +112,16 @@ body {
   #Reused Style
 -----------------------------*/
 
+.btn {
+    color: var(--white);
+    font-size: var(--fs-4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 9px 10px;
+    border-radius: 4px;
+}
 
 /* --------------------------
   #Header
@@ -184,4 +194,32 @@ header .container {
     width: 50px;
     height: 4px;
     background: hsla(0, 0%, 100%, 0.05);
+}
+
+.navbar-link {
+    color: var(--white);
+    font-size: var(--fs-4);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.navbar-link:is(:hover, :focus) {
+    background: hsla(0, 0%, 100%, 0.1);
+}
+
+.navbar-actions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar-btn {
+    color: var(--white);
+    font-size: 25px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.navbar-btn:is(:hover, :focus) {
+    background: hsla(0, 0%, 100%, 0.1);
 }
