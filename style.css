@@ -123,6 +123,10 @@ body {
     border-radius: 4px;
 }
 
+.container {
+    padding: 0 15px;
+}
+
 /* --------------------------
   #Header
 -----------------------------*/
@@ -222,4 +226,17 @@ header .container {
 
 .navbar-btn:is(:hover, :focus) {
     background: hsla(0, 0%, 100%, 0.1);
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    transition: var(--transition);
+}
+
+.overlay.active {
+    pointer-events: all;
+    background: hsla(0, 0%, 0%, 0.07);
 }
