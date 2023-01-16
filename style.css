@@ -168,3 +168,20 @@ header .container {
     visibility: visible;
     transition: 0.25s ease-out;
 }
+
+.navbar-list {
+    padding-bottom: 5px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, 0.05);
+    margin-bottom: 5px;
+}
+
+.navbar::before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50px;
+    height: 4px;
+    background: hsla(0, 0%, 100%, 0.05);
+}
