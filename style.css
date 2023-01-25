@@ -318,7 +318,7 @@ header .container {
 }
 
 .hero .btn-link:is(:hover, :focus) {
-    background-size: 100%, 2px;
+    background-size: 100% 2px;
 }
 
 .hero .btn-link {
